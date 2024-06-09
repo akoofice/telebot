@@ -5,13 +5,13 @@ Replace Your Key with the apikey that you get in your profile.
 */
 
 module.exports = {
-  ownerUsernames: [""],//Your Username
-  ownerNumber: "",//Your Number 
-  telegramBotToken: "",//Your Bot Tokens
-  imageUrl: "https://btch.pages.dev/file/313139c543db723fb67e6.jpg",//Thumbnail Url
+  ownerUsernames: ["afn_rsmrn"],//Your Username
+  ownerNumber: "6282149883022",//Your Number 
+  telegramBotToken: "7454775640:AAGCcJHf2zMykHai8Hhds_ZNRT2pZuv_nQw",//Your Bot Tokens
+  imageUrl: "https://telegra.ph/file/da04f993e528d569847e0.jpg",//Thumbnail Url
   buttonUrl: "https://github.com/ERLANRAHMAT/telebot",//Script Url
   api: "https://api.betabotz.eu.org",
-  apikey: "Your Key",//Change Your Apikey
+  apikey: "ncsOz9Rv",//Change Your Apikey
   mess: {
     eror: "Internal Server Eror 😵",
     owner: "Sorry, this command can only be accessed by the owner!",
