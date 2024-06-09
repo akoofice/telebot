@@ -12,14 +12,14 @@ const plugin = {
       const uptimeMinutes = Math.floor(uptimeSeconds / 60);
       const uptimeHours = Math.floor(uptimeMinutes / 60);
 
-      let menuText = `Hi ${msg.from.username}\nI am an automated system (Telegram Bot) which will help you every day.\n\n`;
+      let menuText = `Hi ${msg.from.username}\nAbracadabra, si pesulap yang siap membuat hatimu terpikat! Halo semuanya, it's me **Fritzy**!\n\n`;
       menuText += `┌  ◦ Uptime: ${uptimeHours} hours ${uptimeMinutes % 60} minutes ${uptimeSeconds % 60} seconds\n`;
       menuText += `│  ◦ Library: Telegraf\n`;
       menuText += `│  ◦ Hari: ${getDayName(now.getDay())}\n`;
       menuText += `│  ◦ Waktu: ${now.toLocaleTimeString()}\n`;
       menuText += `│  ◦ Tanggal: ${now.toLocaleDateString()}\n`;
       menuText += '│  ◦ Version: 0.0.1\n';
-      menuText += '└\n\n';
+      menuText += '└   Maintained by [AkoOffice](https://t.me/Ech_null)\n\n';
 
       const tagsAndCommands = {};
 
@@ -46,7 +46,7 @@ const plugin = {
           reply_to_message_id: msg.message_id,
           reply_markup: {
             inline_keyboard: [
-              [{ text: 'Script Bot', url: buttonUrl }],
+              [{ text: 'Community', url: buttonUrl }],
             ],
           },
         });
