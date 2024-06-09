@@ -9,7 +9,7 @@ module.exports = {
   ownerNumber: "6282149883022",//Your Number 
   telegramBotToken: "7454775640:AAGCcJHf2zMykHai8Hhds_ZNRT2pZuv_nQw",//Your Bot Tokens
   imageUrl: "https://telegra.ph/file/da04f993e528d569847e0.jpg",//Thumbnail Url
-  buttonUrl: "https://github.com/ERLANRAHMAT/telebot",//Script Url
+  buttonUrl: "https://chat.whatsapp.com/BxKoDwk3VsIH2FUjuDG89z",//Script Url
   api: "https://api.betabotz.eu.org",
   apikey: "ncsOz9Rv",//Change Your Apikey
   mess: {
